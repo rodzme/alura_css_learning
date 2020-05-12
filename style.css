@@ -1,14 +1,14 @@
 body {
     background-color: powderblue;
     background-image: url("https://github.com/rodzme/alura_frontend_learning/blob/master/wallpaper.jpg?raw=true");
-    text-shadow: 2px 2px #7E7D8F;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    text-shadow: 2px 2px #7E7D8F;
 }
 
 #wrapper {
