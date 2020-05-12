@@ -1,0 +1,56 @@
+body {
+    background-color: powderblue;
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-shadow: 2px 2px #7E7D8F;
+}
+
+#wrapper {
+    width: 550px;
+	height: 50%;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#clock {
+    font-family: Armata;
+    color: #FFFFFF;
+    font-size: 130px;
+    float: left;
+    text-align: center;
+    padding-right: 15px;
+}
+
+#seconds {
+    font-family: Armata;
+    color: #FFFFFF;
+    font-size: 90px;
+    font-weight: lighter;
+    float: left;
+    text-align: center;
+}
+
+#midday {
+    font-family: Armata;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#date {
+    font-family: Armata;
+    color: #FFFFFF;
+    font-size: 55px;
+    clear: both;
+    text-align: left;
+    padding-left: 15px;
+}
